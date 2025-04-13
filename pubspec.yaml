@@ -1,5 +1,5 @@
 name: voice_alert_app
-description: Simple voice alert app for emergencies.
+description: Voice alert app with V2 Android embedding and GitHub Actions CI.
 version: 1.0.0+1
 
 environment:
@@ -13,3 +13,6 @@ dependencies:
   flutter_background_service: ^3.0.1
   flutter_sms: ^2.3.2
   vibration: ^1.7.4
+
+flutter:
+  uses-material-design: true
